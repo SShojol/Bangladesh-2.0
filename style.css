@@ -156,3 +156,15 @@ div{
     color: #0E0E0E;
     opacity: 50%;
 }
+.banner-title{
+    font-size: 105px;
+}
+.btn2{
+    background-color: #006A50;
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    
+}
