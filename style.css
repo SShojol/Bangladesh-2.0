@@ -110,6 +110,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Fira Sans", serif;
+}
+.btn1:hover, .btn2:hover, .btn3:hover{
+    background-color: #F7EBCF;
+    }
+main{
+    margin: 0 160px;
 }
 
 /* header */
@@ -130,7 +137,6 @@ nav{
 
 }
 div{
-    background-color: #C6E4D6;
     padding: 80px 100px;
 }
 /* .btn2{
@@ -140,6 +146,7 @@ div{
 
 /* banner style */
 .banner{
+    background-color: #C6E4D6;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -147,8 +154,9 @@ div{
     border-radius: 24px;
     width: 1280px cover;
     height: 560px;
+    margin-bottom: 80px;
 }
-.banner-content{;
+.banner-content{
     
 }
 .banner-greetings{
@@ -157,7 +165,9 @@ div{
     opacity: 50%;
 }
 .banner-title{
-    font-size: 105px;
+    font-size: 56px;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 .btn2{
     background-color: #006A50;
@@ -166,5 +176,95 @@ div{
     border-radius: 8px;
     border: none;
     color: #FFFFFF;
+    font-weight: bold;    
+}
+/* piller styles */
+.piller-headline{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.piller-container{
+    display: flex;
+    gap: 24px;
+}
+.piller{
+    padding: 24px;
+    border-color: #0E0E0E;
+    background-color: white;
+    border-radius: 8px;
+    width: 302px;
+    height: 244px;
+}
+
+/* vision-container  */
+.vision-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 32px 32px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.vision{
     
+    width: 410px;
+    height: 325px;
+}
+.vision-color1{
+    background-color: #B9D0F8;
+
+}
+.vision-color2{
+    background-color: #C6E4D6;
+}
+.vision-color3{
+    background-color: #F7EBCF;
+}
+.btn3{
+    width: 122px;
+    height: 41px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+}
+/* news-container */
+.news-container{
+    display: flex;
+}
+/* newsletter */
+.newsletter{
+    height: 600px;
+    background-color: #C6E4D6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    padding: 80px 100px;
+    margin: 160px 80px;
+}
+/* donation style */
+.donate-title{
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    text-align: center;
+}
+.donation-description{
+    font-size: 16px;
+    width: 1104px;
+    height: 48px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.donation-btn{
+    display: flex;
+    gap: 24px;
+    justify-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 128px;
+    padding: 40px 40px;
+    margin-left: 104px;
+    margin-right: 104px;
 }
